@@ -1,0 +1,40 @@
+body{
+  font-family: "小塚ゴシックPr6N ", sans-serif;
+  font-weight: bold;
+  background: url("backphoto.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  align-items: center; /* 画像を中央寄せにしたい場合 */
+  display: flex;
+  justify-content: center;
+} 
+.container {
+  background-color: white;
+  max-width: 400px;
+  min-height: 400px;
+  padding: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 60px;
+  color: gray;
+  margin: 0px;
+}
+/*タブレット*/
+@media (max-width: 1024px) {
+  /*共通設定*/
+  /*終わり*/
+  
+  /*<header class="header">*/
+  /*終わり*/
+  }
+  /*スマホ*/
+  @media (max-width: 599px) {
+  /*共通設定*/
+  /*終わり*/
+  }
+   
